@@ -22,7 +22,7 @@ WebDriverManager.chromedriver().setup();
 		//System.setProperty("webdriver.chrome.driver","C:/Users/RAMESH RONGALA/Downloads/chromedriver_win32 (1)/chromedriver.exe");
 WebDriver driver = new ChromeDriver();
 driver.get("https://www.google.com/");
-System.out.println("browser started");
+System.out.println("browser intiated");
 Thread.sleep(2000);
 
 WebElement ele =driver.findElement(By.xpath("//textarea[@id='APjFqb']"));
